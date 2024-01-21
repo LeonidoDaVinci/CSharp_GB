@@ -2,10 +2,10 @@
 
 void PrintSquares(int limit)
 {
-    int i =1;
-    while(i <= limit)
+    int i = 1;
+    while (i <= limit)
     {
-        Console.Write($"{i*i} ");
+        Console.Write($"{i * i} ");
         i++;
     }
 }
@@ -13,5 +13,3 @@ void PrintSquares(int limit)
 PrintSquares(5);
 PrintSquares(10);
 PrintSquares(15);
-
-
