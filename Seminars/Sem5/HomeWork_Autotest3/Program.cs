@@ -9,7 +9,7 @@ int [,] numbers = new int[,]
 /// Вычисление сумм по строкам (на выходе массив с суммами строк)
 int[] SumRows(int[,] array)
 {
-    //Напишите свое решение здесь
+    //Напишите свое решение здесь 
     int n = array.GetLength(0);
     int[] ArrRow = new int[n];
     for (int i = 0; i < array.GetLength(0); i++)
@@ -27,7 +27,7 @@ int[] SumRows(int[,] array)
 // Получение индекса минимального элемента в одномерном массиве
 int MinIndex(int[] array)
 {
-    //Напишите свое решение здесь
+    //Напишите свое решение здесь 
     int MinElem = array[0];
     int MinIndex = 0;
     for (int i = 1; i < array.Length; i++)
